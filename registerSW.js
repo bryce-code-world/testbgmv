@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sw.js', { scope: '/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://bryce-code-world.github.io/testbgmv/sw.js', { scope: 'https://bryce-code-world.github.io/testbgmv/' })})}
